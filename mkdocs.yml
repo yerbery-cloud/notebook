@@ -1,0 +1,84 @@
+site_name: yerbery
+
+site_url: https://yerbery-cloud.github.io/notebook/
+
+repo_name: yerbery-cloud/notebook
+repo_url: https://github.com/yerbery-cloud/notebook
+
+theme:
+  theme:
+  name: material
+  language: zh
+
+  palette:
+    # 1. 紫灰主题
+    - scheme: yerbery-purple
+      toggle:
+        icon: material/palette
+        name: 切换配色
+
+    # 2. 蓝青主题
+    - scheme: yerbery-blue
+      toggle:
+        icon: material/palette
+        name: 切换配色
+
+    # 3. 暖米主题
+    - scheme: yerbery-warm
+      toggle:
+        icon: material/palette
+        name: 切换配色
+
+    # 4. 深色主题
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: 切换配色
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+
+nav:
+  - 扉页: index.md
+
+  - 技术积累:
+      - tech/index.md
+
+  - 课程笔记:
+      - courses/index.md
+
+  - 科研积累:
+      - research/index.md
+
+  - 论文阅读:
+      - papers/index.md
+
+  - 个人博客主页: https://yerbery-cloud.github.io/
+
+extra_css:
+  - stylesheets/extra.css

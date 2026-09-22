@@ -1,0 +1,98 @@
+/* ========================================
+   Yerbery Notebook Color Themes
+   ======================================== */
+
+
+/* ---------- 1. Yerbery Purple ---------- */
+
+[data-md-color-scheme="yerbery-purple"] {
+
+  --md-primary-fg-color: #75677d;
+  --md-primary-fg-color--light: #95889c;
+  --md-primary-fg-color--dark: #594d60;
+
+  --md-accent-fg-color: #927ba0;
+
+  --md-default-bg-color: #fcfaf8;
+  --md-default-fg-color: #383238;
+
+  --md-typeset-a-color: #796487;
+
+  --yerbery-soft-color: #a996ae;
+}
+
+
+/* ---------- 2. Academic Blue ---------- */
+
+[data-md-color-scheme="yerbery-blue"] {
+
+  --md-primary-fg-color: #526f80;
+  --md-primary-fg-color--light: #7892a0;
+  --md-primary-fg-color--dark: #3d5665;
+
+  --md-accent-fg-color: #4d8791;
+
+  --md-default-bg-color: #fafcfc;
+  --md-default-fg-color: #30383d;
+
+  --md-typeset-a-color: #4d7489;
+
+  --yerbery-soft-color: #8ba8b3;
+}
+
+
+/* ---------- 3. Warm Paper ---------- */
+
+[data-md-color-scheme="yerbery-warm"] {
+
+  --md-primary-fg-color: #89766c;
+  --md-primary-fg-color--light: #a79489;
+  --md-primary-fg-color--dark: #68584f;
+
+  --md-accent-fg-color: #9a765f;
+
+  --md-default-bg-color: #fdf9f3;
+  --md-default-fg-color: #403833;
+
+  --md-typeset-a-color: #886755;
+
+  --yerbery-soft-color: #b8a497;
+}
+
+
+/* ========================================
+   Shared Layout
+   ======================================== */
+
+body {
+  background-color: var(--md-default-bg-color);
+}
+
+.md-main {
+  background-color: var(--md-default-bg-color);
+}
+
+
+/* 正文宽度 */
+.md-grid {
+  max-width: 1280px;
+}
+
+
+/* 一级标题 */
+.md-typeset h1 {
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+
+/* 引用 */
+.md-typeset blockquote {
+  border-left: 4px solid var(--yerbery-soft-color);
+}
+
+
+/* 顶部导航 */
+.md-tabs {
+  background-color: var(--md-primary-fg-color);
+}
