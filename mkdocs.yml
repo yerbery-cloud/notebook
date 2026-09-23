@@ -73,7 +73,11 @@ nav:
       - courses/index.md
 
   - 科研积累:
-      - research/index.md
+    - 科研积累首页: research/index.md
+    - SNN AutoResearch:
+        - Week 1 Benchbasics & 2 benches:
+            - Edge Bench & Brain Pilot Bench & Benchbasics: research/Week1 Benchbasics & 2 benches/Edge_Bench_and_Benchbasics.md
+            
 
   - 论文阅读:
       - papers/index.md
