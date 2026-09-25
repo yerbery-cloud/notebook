@@ -78,6 +78,7 @@ nav:
         - Week 1 Benchbasics & 2 benches:
             - Edge Bench & Brain Pilot Bench & Benchbasics: research/Week1 Benchbasics & 2 benches/Edge_Bench_and_Benchbasics.md
             
+        - Week 2 · Benchmark Task Design: research/SNN_AutoResearch_Benchmark_Task_Design_Knowledge_Note.md
 
   - 论文阅读:
       - papers/index.md
