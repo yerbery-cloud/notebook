@@ -82,6 +82,7 @@ nav:
 
   - 论文阅读:
       - papers/index.md
+      - "SpiNeMap: Mapping SNNs to Neuromorphic Hardware": papers/SpiNeMap.md
 
   - 个人博客主页: https://yerbery-cloud.github.io/
 
