@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<rect width="100%" height="100%" fill="white"/>
+<style>
+.title { font: bold 27px sans-serif; fill: #172033; }
+.label { font: bold 19px sans-serif; fill: #172033; }
+.small { font: 16px sans-serif; fill: #354052; }
+.box { fill: #f5f7fa; stroke: #64748b; stroke-width: 2; rx: 14; }
+.arrow { stroke: #64748b; stroke-width: 2.5; fill: none; }
+</style>
+
+<text x="600" y="40" text-anchor="middle" class="title">Theoretical weight storage for a 0.5B-parameter model</text>
+<text x="205" y="92" class="label">FP32</text><rect x="330" y="70" width="600" height="34" fill="#64748b" rx="5"/><text x="950" y="94" class="label">≈ 2.0 GB</text>
+<text x="205" y="152" class="label">FP16 / BF16</text><rect x="330" y="130" width="300" height="34" fill="#64748b" rx="5"/><text x="650" y="154" class="label">≈ 1.0 GB</text>
+<text x="205" y="212" class="label">INT8</text><rect x="330" y="190" width="150" height="34" fill="#64748b" rx="5"/><text x="500" y="214" class="label">≈ 0.5 GB</text>
+<text x="205" y="272" class="label">INT4</text><rect x="330" y="250" width="75" height="34" fill="#64748b" rx="5"/><text x="425" y="274" class="label">≈ 0.25 GB</text>
+<text x="600" y="330" text-anchor="middle" class="small">Estimate only: parameter count × bits per parameter ÷ 8. Excludes metadata and runtime memory.</text>
+
+</svg>

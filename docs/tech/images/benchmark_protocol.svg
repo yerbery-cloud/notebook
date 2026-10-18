@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+<rect width="100%" height="100%" fill="white"/>
+<style>
+.title { font: bold 27px sans-serif; fill: #172033; }
+.label { font: bold 19px sans-serif; fill: #172033; }
+.small { font: 16px sans-serif; fill: #354052; }
+.box { fill: #f5f7fa; stroke: #64748b; stroke-width: 2; rx: 14; }
+.arrow { stroke: #64748b; stroke-width: 2.5; fill: none; }
+</style>
+
+<text x="600" y="40" text-anchor="middle" class="title">A fair efficiency benchmark</text>
+<rect class="box" x="25" y="105" width="205" height="115"/><text x="127" y="145" text-anchor="middle" class="label">1. Fix workload</text><text x="127" y="178" text-anchor="middle" class="small">Same paper, task,</text><text x="127" y="199" text-anchor="middle" class="small">input and output limit</text>
+<rect class="box" x="270" y="105" width="205" height="115"/><text x="372" y="145" text-anchor="middle" class="label">2. Run baseline</text><text x="372" y="178" text-anchor="middle" class="small">Warm up and repeat</text><text x="372" y="199" text-anchor="middle" class="small">measurements</text>
+<rect class="box" x="515" y="105" width="205" height="115"/><text x="617" y="145" text-anchor="middle" class="label">3. Optimize</text><text x="617" y="178" text-anchor="middle" class="small">FP32 → INT8 / INT4</text><text x="617" y="199" text-anchor="middle" class="small">defined runtime</text>
+<rect class="box" x="760" y="105" width="205" height="115"/><text x="862" y="145" text-anchor="middle" class="label">4. Measure</text><text x="862" y="178" text-anchor="middle" class="small">Latency, tokens/s,</text><text x="862" y="199" text-anchor="middle" class="small">RSS / peak memory</text>
+<rect class="box" x="1005" y="105" width="170" height="115"/><text x="1090" y="145" text-anchor="middle" class="label">5. Check quality</text><text x="1090" y="178" text-anchor="middle" class="small">Faithfulness,</text><text x="1090" y="199" text-anchor="middle" class="small">coverage, usefulness</text>
+<g class="arrow"><path d="M230 162 H267 M260 155 L267 162 L260 169"/><path d="M475 162 H512 M505 155 L512 162 L505 169"/><path d="M720 162 H757 M750 155 L757 162 L750 169"/><path d="M965 162 H1002 M995 155 L1002 162 L995 169"/></g>
+<text x="600" y="275" text-anchor="middle" class="small">Compare the trade-off, not a single number: efficiency gains must preserve acceptable output quality.</text>
+<text x="600" y="308" text-anchor="middle" class="small">Record model revision, library versions, hardware, prompt, generation settings and measurement method.</text>
+
+</svg>

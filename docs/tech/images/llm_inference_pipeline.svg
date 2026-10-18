@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<rect width="100%" height="100%" fill="white"/>
+<style>
+.title { font: bold 27px sans-serif; fill: #172033; }
+.label { font: bold 19px sans-serif; fill: #172033; }
+.small { font: 16px sans-serif; fill: #354052; }
+.box { fill: #f5f7fa; stroke: #64748b; stroke-width: 2; rx: 14; }
+.arrow { stroke: #64748b; stroke-width: 2.5; fill: none; }
+</style>
+
+<text x="600" y="42" text-anchor="middle" class="title">Local LLM inference: text → tokens → generated summary</text>
+<g>
+<rect class="box" x="25" y="105" width="145" height="105"/><text class="label" x="97" y="145" text-anchor="middle">Input</text><text class="small" x="97" y="177" text-anchor="middle">Title + abstract</text>
+<rect class="box" x="195" y="105" width="145" height="105"/><text class="label" x="267" y="145" text-anchor="middle">Tokenizer</text><text class="small" x="267" y="177" text-anchor="middle">Text → token IDs</text>
+<rect class="box" x="365" y="105" width="145" height="105"/><text class="label" x="437" y="145" text-anchor="middle">Prompt</text><text class="small" x="437" y="177" text-anchor="middle">Chat template</text>
+<rect class="box" x="535" y="105" width="165" height="105"/><text class="label" x="617" y="145" text-anchor="middle">Prefill</text><text class="small" x="617" y="174" text-anchor="middle">Process context</text><text class="small" x="617" y="194" text-anchor="middle">Build KV cache</text>
+<rect class="box" x="725" y="105" width="180" height="105"/><text class="label" x="815" y="145" text-anchor="middle">Decode loop</text><text class="small" x="815" y="174" text-anchor="middle">Predict next token</text><text class="small" x="815" y="194" text-anchor="middle">Repeat until stop</text>
+<rect class="box" x="930" y="105" width="135" height="105"/><text class="label" x="997" y="145" text-anchor="middle">Decode</text><text class="small" x="997" y="177" text-anchor="middle">IDs → text</text>
+<rect class="box" x="1090" y="105" width="95" height="105"/><text class="label" x="1137" y="145" text-anchor="middle">Output</text><text class="small" x="1137" y="177" text-anchor="middle">Summary</text>
+</g>
+<g class="arrow"><path d="M170 157 H192 M185 150 L192 157 L185 164"/><path d="M340 157 H362 M355 150 L362 157 L355 164"/><path d="M510 157 H532 M525 150 L532 157 L525 164"/><path d="M700 157 H722 M715 150 L722 157 L715 164"/><path d="M905 157 H927 M920 150 L927 157 L920 164"/><path d="M1065 157 H1087 M1080 150 L1087 157 L1080 164"/></g>
+<text x="600" y="265" text-anchor="middle" class="small">Prefill processes the prompt; autoregressive decode generates output token by token.</text>
+<text x="600" y="300" text-anchor="middle" class="small">In the current script, timing starts immediately before model.generate(): loading and tokenization are excluded.</text>
+
+</svg>

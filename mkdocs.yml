@@ -62,12 +62,16 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight
   - pymdownx.inlinehilite
+  - pymdownx.arithmatex:
+      generic: true
 
 nav:
   - 扉页: index.md
 
   - 技术积累:
-      - tech/index.md
+      - 技术积累首页: tech/index.md
+      - Efficient AI:
+        - Lecture 01 Local_LLM_Inference: tech/Local_LLM_Inference.md
 
   - 课程笔记:
       - courses/index.md
@@ -81,10 +85,14 @@ nav:
         - Week 2 · Benchmark Task Design: research/SNN_AutoResearch_Benchmark_Task_Design_Knowledge_Note.md
 
   - 论文阅读:
-      - papers/index.md
+      - 论文阅读首页: papers/index.md
       - "SpiNeMap: Mapping SNNs to Neuromorphic Hardware": papers/SpiNeMap.md
 
   - 个人博客主页: https://yerbery-cloud.github.io/
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
