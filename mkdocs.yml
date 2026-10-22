@@ -87,6 +87,7 @@ nav:
   - 论文阅读:
       - 论文阅读首页: papers/index.md
       - "SpiNeMap: Mapping SNNs to Neuromorphic Hardware": papers/SpiNeMap.md
+      - "SENMap: Multi-objective data-flow mapping and synthesis for hybrid scalable neuromorphic systems": papers/SENMap.md
 
   - 个人博客主页: https://yerbery-cloud.github.io/
 
