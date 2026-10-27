@@ -636,20 +636,14 @@ KV Cache 的核心思想：
 
 ## 参考资料
 
-1. Hugging Face Transformers — How caching works  
-   https://huggingface.co/docs/transformers/main/cache_explanation
+1. Hugging Face Transformers — [How caching works](https://huggingface.co/docs/transformers/main/cache_explanation)
 
-2. Hugging Face Transformers — Cache strategies  
-   https://huggingface.co/docs/transformers/main/en/kv_cache
+2. Hugging Face Transformers — [Cache strategies](https://huggingface.co/docs/transformers/main/en/kv_cache)
 
-3. Hugging Face Transformers — Generation  
-   https://huggingface.co/docs/transformers/main_classes/text_generation
+3. Hugging Face Transformers — [Generation](https://huggingface.co/docs/transformers/main_classes/text_generation)
 
-4. PyTorch — Scaled Dot Product Attention  
-   https://docs.pytorch.org/docs/main/generated/torch.nn.functional.scaled_dot_product_attention.html
+4. PyTorch — [Scaled Dot Product Attention](https://docs.pytorch.org/docs/main/generated/torch.nn.functional.scaled_dot_product_attention.html)
 
-5. Qwen Team — Qwen2 Technical Report  
-   https://arxiv.org/abs/2407.10671
+5. Qwen Team — [Qwen2 Technical Report](https://arxiv.org/abs/2407.10671)
 
-6. Qwen — Qwen2.5-0.5B-Instruct config.json  
-   https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct/blob/main/config.json
+6. Qwen — [Qwen2.5-0.5B-Instruct config.json](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct/blob/main/config.json)
