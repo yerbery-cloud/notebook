@@ -72,7 +72,7 @@ nav:
       - 技术积累首页: tech/index.md
       - Efficient AI:
         - Lecture 01 Local_LLM_Inference: tech/Local_LLM_Inference.md
-
+        - Lecture 02 Transformer_Inference_KV_Cache: tech/Transformer_Inference_KV_Cache.md
   - 课程笔记:
       - courses/index.md
 
