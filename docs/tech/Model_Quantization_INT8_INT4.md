@@ -1,8 +1,9 @@
 # Efficient AI 03：模型量化原理与 INT8 / INT4 实践
 
-> 关键词：Quantization · INT8 · INT4 · PTQ · QAT · Scale · Zero-point · Groupwise · GGUF · Q8_0 · Q4_K_M  
-> 目标：理解“模型为什么能量化、量化误差从哪里来、INT8/INT4 有什么区别，以及如何判断一个量化方案是否真的有效”。
-
+> **系列：** Efficient AI 基础　
+> **实验环境：** Windows + WSL Debian、CPU、PyTorch、Transformers  
+> **关键词**：Quantization · INT8 · INT4 · PTQ · QAT · Scale · Zero-point · Groupwise · GGUF · Q8_0 · Q4_K_M  
+> **时间：**  2026.11
 ---
 
 ## 0. 先建立直觉：量化到底在做什么？
