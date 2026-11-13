@@ -73,6 +73,8 @@ nav:
       - Efficient AI:
         - Lecture 01 Local_LLM_Inference: tech/Local_LLM_Inference.md
         - Lecture 02 Transformer_Inference_KV_Cache: tech/Transformer_Inference_KV_Cache.md
+        - Lecture 03 Model_Quantization_INT8_INT4: tech/Model_Quantization_INT8_INT4.md
+        
   - 课程笔记:
       - courses/index.md
 
