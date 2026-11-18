@@ -91,7 +91,7 @@ nav:
       - "SpiNeMap: Mapping SNNs to Neuromorphic Hardware": papers/SpiNeMap.md
       - "SENMap: Multi-objective data-flow mapping and synthesis for hybrid scalable neuromorphic systems": papers/SENMap.md
       - "The NeuroBench Framework for Benchmarking Neuromorphic Computing Algorithms and Systems": papers/NeuroBench.md
-
+      - "Darwin3: a large-scale neuromorphic chip with a novel ISA and on-chip learning": papers/Darwin3.md
   - 个人博客主页: https://yerbery-cloud.github.io/
 
 extra_css:
